@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-saveanything-sg11"
+description = "A ComfyUI custom node for saving images in various formats"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "Pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/SongGuo11/ComfyUI-SaveAnything-SG11"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-SaveAnything-SG11"
+Icon = ""
